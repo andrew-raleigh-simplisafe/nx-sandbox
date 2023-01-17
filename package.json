@@ -4,6 +4,10 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
+  "workspaces": [
+    "./apps/*",
+    "./libs/*"
+  ],
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
     "@nrwl/cypress": "15.5.1",
